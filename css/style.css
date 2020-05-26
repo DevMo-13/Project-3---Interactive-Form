@@ -130,6 +130,10 @@ option {
 /* ================================= 
   Page Styles
 ==================================== */
+.error {
+	color: red;
+	font-size: 13px;
+}
 
 .container {
 	margin: auto;
