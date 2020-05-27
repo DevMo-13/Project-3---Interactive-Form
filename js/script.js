@@ -185,6 +185,7 @@ paymentMenu.addEventListener('change', (e) => {
 
     // displays the payment info based on the payment option the user chooses
     if (clickedPayment.value === paymentCreditCard.value) {
+        creditCardSelected = true;
         display(divCreditCard);
         hide(divPayPal);
         hide(divBitcoin);
@@ -267,7 +268,6 @@ function emailValid() {
 // Activities validation function - ensures that the user selects at least one activity
 function activitiesValid() {
     const firstActivityInput = document.querySelectorAll('.activities input')[0];
-    const activitiesLegend = activitiesFieldset.firstElementChild;
     
     for (let i = 0; i < activitiesInput.length; i++) {
         if (activitiesInput[i].checked) {
