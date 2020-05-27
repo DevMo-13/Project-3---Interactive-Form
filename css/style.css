@@ -2,8 +2,6 @@
   Base Element Styles
 ==================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto+Mono');
-
 * {
   box-sizing: border-box;
 }
@@ -11,13 +9,13 @@
 body,
 input,
 button {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
   font: 1em/1.5;
   color: rgba(6, 49, 68, 0.9);
-	background: #CDE0FB;
+	background: #9FB4CB;
 }
 
 header {
@@ -26,7 +24,7 @@ header {
 
 h1 {
 	font-size: 2.5em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+	text-shadow: 0 2px 0 rgba(255, 255, 255, 0.85);
 	margin: 0;
 }
 
@@ -40,7 +38,7 @@ a {
 
 form {
 	padding: .875em 1.875em 1.875em;
-	background: #9BBEEF;
+	background: #C0D3E7;
 	border: 2px solid rgba(8, 63, 87, 0.6);
 	border-radius: 3px;
 }
@@ -124,7 +122,7 @@ button:hover {
 input, 
 select, 
 option {
-	font-family: 'roboto', sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* ================================= 
@@ -148,7 +146,6 @@ option {
 .shirt-box {
 	width: 100%;
 	padding: 5px;
-	background: rgba(255, 255, 255, 0.1);
 	border-radius: 4px;
 }
 
@@ -166,7 +163,6 @@ option {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 5px;
-	background: rgba(255, 255, 255, 0.1);
 	border-radius: 4px;
 }
 
