@@ -83,12 +83,13 @@ designMenu.addEventListener('change', (e) => {
     const selectedDesign = e.target;
     const designJSPuns = designMenu.options[1];
     const designHeartJS = designMenu.options[2];
-    
+
     // displays the color label and drop down menu
     function showColorField() {
         display(colorLabel);
         display(colorSelect);
         chooseColorMessage.textContent = 'Select Color'; // -text of the option created earlier is changed (since now a design has been chosen)
+        chooseColorMessage.selected = true;
     };
 
     // only displays the color options that match the design the user selected
@@ -171,15 +172,16 @@ hide(divBitcoin);
 let creditCardSelected = true;
 const paymentMenu = document.getElementById('payment');
 const paymentOption0 = paymentMenu.options[0];
+const paymentCreditCard = paymentMenu.options[1];
+const paymentPayPal = paymentMenu.options[2];
+const paymentBitcoin = paymentMenu.options[3];
 
+paymentCreditCard.setAttribute('selected', '');
 hide(paymentOption0);
 
 // Event listener is added to the payment drop down menu
 paymentMenu.addEventListener('change', (e) => {
     const clickedPayment = e.target;
-    const paymentCreditCard = paymentMenu.options[1];
-    const paymentPayPal = paymentMenu.options[2];
-    const paymentBitcoin = paymentMenu.options[3];
 
     // displays the payment info based on the payment option the user chooses
     if (clickedPayment.value === paymentCreditCard.value) {
