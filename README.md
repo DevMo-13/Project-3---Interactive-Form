@@ -1,5 +1,5 @@
-# Project 3 - Interactive Form
- Interactive Form
+# INTERACTIVE FORM
+ Treehouse FSJS Techdegree Project 3 - Interactive Form
 
 This project uses JavaScript to enhance an interactive registration form for a fictional conference called "FullStack Conf."
 
