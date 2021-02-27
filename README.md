@@ -3,7 +3,7 @@
 
 Interactive online registration form for a fictional conference called FullStack Conf.
 
-Live link to the project can be found here: https://devmo-13.github.io/interactive-form/.
+###### Live link to the project can be found here: https://devmo-13.github.io/interactive-form/.
 
 ---
 
